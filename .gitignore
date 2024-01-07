@@ -10,9 +10,12 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-# Ignore specific packages
-Assets/Rocks and Boulders 2/
-Assets/StarterAssets/
+# Ignore assets
+Assets/
+
+# Include specific folders in assets
+!Assets/Scenes/
+
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
